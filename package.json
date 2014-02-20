@@ -1,35 +1,11 @@
 {
-  "name": "telepath",
+  "name": "marcelklehr-telepath",
+  "description": "OT managing library",
   "version": "0.1.0",
-  "description": "Sync anything!",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/marcelklehr/changesets.git"
+  "main": "index.js",
+  "dependencies": {
+    "share-ottypes": "git://github.com/npmcomponent/share-ottypes.git",
+    "marcelklehr-browser-stream": "git://github.com/npmcomponent/marcelklehr-browser-stream.git"
   },
-  "keywords": [
-    "operational transformation",
-    "ot",
-    "changesets",
-    "diff",
-    "Forward Transformation",
-    "Backward Transformation",
-    "Inclusion Transformation",
-    "Exclusion Transformation",
-    "collaborative",
-    "undo",
-    "text"
-  ],
-  "main": "./lib/index",
-  "scripts": {
-    "test": "mocha"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "*"
-  , "expect.js": "*"
-  , "ottypes": "*"
-  },
-  "author": "Marcel Klehr <mklehr@gmx.net>",
-  "license": [{"type": "MIT", "url": "http://opensource.org/licenses/MIT"}],
-  "readmeFilename": "README.md"
+  "license": "MIT"
 }

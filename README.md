@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [marcelklehr/telepath](http://github.com/marcelklehr/telepath). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/marcelklehr-telepath`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # Telepath [![Build Status](https://travis-ci.org/marcelklehr/telepath.png)](https://travis-ci.org/marcelklehr/telepath)
 Link documents and they'll stay in sync. Anywhere in the world, in node.js and the browser!
 
